@@ -1,0 +1,17 @@
+body {
+    background-color: #93DB9C;
+    font-family: 'Roboto', sans-serif;
+}
+
+.prop-section {
+    border-bottom: solid 8px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    display: inline-block;
+    border-bottom: solid 4px;
+}
