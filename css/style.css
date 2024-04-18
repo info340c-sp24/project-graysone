@@ -46,6 +46,7 @@ nav ul li a {
 .intro-box p {
     color: white;
     text-align: center;
+    margin: 0.5rem;
 }
 
 .intro-box ul {
@@ -59,4 +60,21 @@ nav ul li a {
 .intro-box ul li:last-child {
     margin: 1rem;
     padding-bottom: 1rem;
+}
+
+.features-box {
+    border-radius: 10px;
+    background-color: #1a3023;
+    width: 60vw;
+    margin: auto;
+}   
+
+@media (min-width: 768px) {
+    h1 {
+
+    }
+
+    nav ul li a {
+        
+    }
 }
