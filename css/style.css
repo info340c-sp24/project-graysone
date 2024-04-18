@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
+    background-image: url('../img/website_logo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: #1a3023;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 8vw;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    font-size: 3.5vw;
+    color: white;
+    text-decoration: none;
+    margin: 1.5vw;
+}   
+
+.intro-box {
+    border-radius: 10px;
+    background-color: #1a3023;
+    width: 80vw;
+    margin: auto;
+}
+
+.intro-box p {
+    color: white;
+    text-align: center;
+}
+
+.intro-box ul {
+    color: white;
+}
+
+.intro-box ul li {
+    margin: 1rem;
+}
+
+.intro-box ul li:last-child {
+    margin: 1rem;
+    padding-bottom: 1rem;
+}
