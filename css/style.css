@@ -4,9 +4,7 @@
 
 body {
     font-family: "Oswald", Arial, Helvetica, sans-serif;
-    background-image: url('../img/website_logo.jpg');
-    background-size: cover;
-    background-position: center;
+    background-color: #e9d8b9;
 }
 
 header {
@@ -17,6 +15,20 @@ h1 {
     text-align: center;
     color: white;
     font-size: 8vw;
+}
+
+.title-content {
+    padding: 20px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 12vw;
+    height: auto;
 }
 
 nav ul {
@@ -68,6 +80,19 @@ nav ul li a {
     width: 60vw;
     margin: auto;
 }   
+
+footer {
+    background-color: #1a3023;
+    width: 100%;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
 
 @media (min-width: 768px) {
     h1 {
