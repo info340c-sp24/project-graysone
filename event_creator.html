@@ -6,7 +6,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <title>Main Page</title>
+    <link rel="icon" href="img/tree_logo.png" type="image/x-icon">
+    <title>Event Creator</title>
 </head>
 <body>
     <header>
@@ -25,12 +26,14 @@
         </nav>
     </header>
     <main>
-        <h2>Event Creator</h2>
+        <h2 class="page-header">Event Creator</h2>
         <section class="intro-box">
             <p>
                 Welcome to the event creator! Below you there is a form that you will be able to fill out to create your hiking event. The first five 
                 inputs are required, but after that you can choose what details to add. 
             </p>
+            <!-- I will add functionality for displaying contents of the form, as well as saving the form information when I add javascript, as well as 
+                functionality for creating new events after creating one.-->
             <form action="">
                 <label for="hike_name">Hike Name:</label>
                 <input type="text" id="hike_name" name="hike_name" required><br><br>
@@ -62,7 +65,7 @@
                 <label for="link_to_other_database">Link to Hike on Other Database:</label>
                 <input type="url" id="link_to_other_database" name="link_to_other_database"><br><br>
 
-                <input type="submit" value="Create Event" class="form-button">
+                <input type="submit" value="Create Event" class="form-button" role="button">
             </form>
         </section>
     </main>
