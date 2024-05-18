@@ -7,9 +7,9 @@ import InterestListCreatorPage from './Components/InterestList';
 function App() {
   return (
     <div>
-      <HomePage />
+      {/* <HomePage /> */}
       {/* <EventCreatorPage /> */}
-      {/* <EventOrganizerPage />  */}
+      <EventOrganizerPage /> 
       {/* <InterestListCreatorPage />  */}
     </div>
   );
