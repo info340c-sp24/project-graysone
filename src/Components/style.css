@@ -1,4 +1,4 @@
-/* General Rules */
+/* General Styles */
 * {
     box-sizing: border-box;
 }
@@ -8,6 +8,7 @@ body {
     background-color: #e9d8b9;
 }
 
+/* Header Styles */
 header {
     background-color: #1a3023;
 }
@@ -18,11 +19,13 @@ h1 {
     font-size: 8vw;
 }
 
+/* Footer Styles */
 footer {
     background-color: #1a3023;
     width: 100%;
     margin-top: 2rem;
     padding-bottom: 1rem;
+    bottom: 0px;
 }
 
 footer p {
@@ -31,13 +34,7 @@ footer p {
     padding: 1.5rem;
 }
 
-form {
-    color: white;
-    margin-top: 2.5rem;
-    text-align: center;
-}
-
-/* Navigation Bar Styling */
+/* Navigation Styles */
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -53,9 +50,9 @@ nav ul li a {
     color: white;
     text-decoration: none;
     margin: 1.5vw;
-}  
+}
 
-/* In page headers and logo styling */
+/* Page Header and Logo Styles */
 .page-header{
     color: #1a3023;
     margin-left: 2rem;
@@ -81,7 +78,7 @@ nav ul li a {
     height: auto;
 } 
 
-/* Intro Box Styling */
+/* Intro Box Styles */
 .intro-box {
     border-radius: 10px;
     background-color: #1a3023;
@@ -117,7 +114,7 @@ nav ul li a {
     margin: auto;
 }
 
-/* feature box styling */
+/* Feature Box Styles */
 .features-box {
     border-radius: 10px;
     background-color: #1a3023;
@@ -125,7 +122,7 @@ nav ul li a {
     margin: auto;
 }   
 
-/* button styling */
+/* Button Styles */
 .form-button {
     margin-bottom: 2rem;
 }
@@ -138,7 +135,7 @@ nav ul li a {
     margin: 1.5rem;
 }
 
-/* Interest List Styling */
+/* Interest List Styles */
 .created-event:hover {
     background-color: #1a3023;
     color: white;
@@ -155,7 +152,6 @@ nav ul li a {
     margin: 1rem;
     padding: 0.5rem;
     border-radius: 5px;
-    
 }
 
 .interest-list li::marker {
@@ -163,6 +159,7 @@ nav ul li a {
     font-size: 2rem;
 }
 
+/* Modal Styles */
 .modal {
     display: block;
     position: fixed; 
@@ -170,17 +167,86 @@ nav ul li a {
     width: 100%; 
     height: 100%; 
     background-color: rgba(0,0,0,0.4);
+    overflow-y: auto;
 }
 
 .modal-content {
     background-color: #e9d8b9;
     margin: 15% auto; 
-    padding: 20px;
-    padding-bottom: 40px;
+    padding: 1rem;
     border: 1px solid #1a3023;
     width: 80vw;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    overflow-y: auto;
+    color: #1a3023;
+}
+
+.button-flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Event Styles */
+.event-box {
+    border-radius: 10px;
+    background-color: #1a3023;
+    width: 70vw;
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}   
+
+.event-detail {
+    color: black;
+    background-color: #e9d8b9;
+}
+
+.event-name {
+    padding: 10px;
+    color: white;
+}
+
+.event-btn {
+    background-color: #e9d8b9;
+    color: #1a3023;
+}
+
+/* Sign-in Styles */
+.sign-in {
+    background-color: #1a3023;
+    height: 100vh;
+}
+
+.login-content {
+    text-align: center;
+}
+
+.login-content input, .login-content button {
+    margin: 10px;
+}
+
+.log-out {
+    margin: 10px;
+}
+
+.error-message {
+    color: white;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    max-width: 400px;
+    margin: 1.5rem;
 }
 
 @media (min-width: 768px) {
