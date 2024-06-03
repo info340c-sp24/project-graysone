@@ -110,7 +110,7 @@ function EventOrganizerContent({ hikeEvents }) {
             {showModal && (
                 <div className="modal">
                     <div className="modal-content">
-                        <p className="close" onClick={() => setShowModal(false)}>X</p>
+                        <button className="btn" onClick={() => setShowModal(false)}>X</button>
                         <form onSubmit={handleFormSubmit}>
                             <label htmlFor="newCategory">Category Title:</label>
                             <input
